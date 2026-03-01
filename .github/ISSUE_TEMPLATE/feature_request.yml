@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose a product improvement
+title: "[Feature] "
+labels: ["enhancement", "P3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the trading workflow problem first, then the proposed capability.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should DexTraderPro do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds or alternatives you currently use.
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - High (blocks key workflow)
+        - Medium (friction in normal workflow)
+        - Low (nice to have)
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: Alpha feedback
+description: Share early usage feedback and product impressions
+title: "[Feedback] "
+labels: ["feedback", "P4"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for non-bug alpha feedback.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feedback category
+      options:
+        - Onboarding
+        - UI/UX clarity
+        - Performance
+        - Reliability
+        - Features
+        - Pricing/packaging
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feedback summary
+      description: What worked, what did not, and why.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What would make this materially better for you?
