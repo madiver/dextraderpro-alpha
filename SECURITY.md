@@ -9,7 +9,7 @@ Security reports are accepted for currently distributed alpha builds in this rep
 Do not open public GitHub issues for security vulnerabilities.
 
 Please report privately by email:
-- `security@sciencebrew.com`
+- `support@sciencebrew.com`
 
 Include:
 - affected version (example: `v0.1.0-alpha.1`)
