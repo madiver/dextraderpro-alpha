@@ -50,7 +50,12 @@ Common paths:
 
 Do not post security vulnerabilities in public issues.
 
-Use private reporting instructions in `SECURITY.md` (to be added) or contact the team directly.
+Use private reporting instructions in `SECURITY.md`.
+
+## Release Notes Drafts
+
+Draft release notes are maintained in `release-notes/`.
+- First alpha draft: `release-notes/v0.1.0-alpha.1.md`
 
 ## Legal
 
