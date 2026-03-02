@@ -56,6 +56,7 @@ Use private reporting instructions in `SECURITY.md`.
 
 Draft release notes are maintained in `release-notes/`.
 - First alpha draft: `release-notes/v0.1.0-alpha.1.md`
+- Current draft: `release-notes/v0.1.1.md`
 
 ## Legal
 
