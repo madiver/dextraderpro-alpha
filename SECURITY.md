@@ -12,7 +12,7 @@ Please report privately by email:
 - `support@sciencebrew.com`
 
 Include:
-- affected version (example: `v0.1.0-alpha.1`)
+- affected version (example: `v0.1.0`)
 - platform (`macOS` or `Windows`)
 - clear reproduction steps
 - impact assessment (what an attacker could do)
